@@ -55,7 +55,7 @@ async def start(client, message):
             InlineKeyboardButton('🔥 𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍', url='https://t.me/+_p0qX2WtiZo5NDlk'),
             InlineKeyboardButton('💵 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓', url='https://t.me/eyymol')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data=f'https://t.me/{BOT_USERNAME}?start=clone')
+            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
